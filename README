@@ -1,0 +1,21 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4354
+
+This indent guides plugin is used for displaying thin vertical lines at each indentation level for code indented with spaces. For code indented with tabs, I think there is no need to support it, using :set list lcs=tab:\|\ (here is a space) can achieve it.
+
+Related works: 
+-Indent Guides(vimscript #3361) uses color to display indent levels. 
+
+Requirements:
+This plugin takes advantage of newly provided conceal feature in Vim 7.3, so Vim 7.3 with conceal feature is needed.
+
+Setting custom line colors:
+For gvim, hi Conceal guifg=(color you like) guibg=NONE
+For vim, hi Conceal ctermfg=(color you like) ctermbg=NONE
+
+Github:
+https://github.com/Yggdroot/indentLine
+
+Screenshots: 
+http://imgur.com/WQqhH
+http://imgur.com/zhV1v
+http://imgur.com/cENlq
